@@ -1,0 +1,98 @@
+/* Die Farbe des Button “Read more” ist: #745cf9
+Die Farbe des Button:hover “Read more” ist: #5234f9 */
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+header{
+    border-top: 2px solid #666666;
+    border-bottom: 1px solid #666666;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+}
+.nav-wrapper{
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.logo{
+    color: #666666;
+    text-decoration: none;
+    font-size: 1.5rem;
+    width: 175px;
+}
+.logo:hover{
+    color: #333333;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-size: 0.85rem;
+    padding-left: 25px;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+#hero{
+    height: 110vh;
+    color: #ffffff;
+    background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+h3{
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 0 0 5vh 0;
+}
+.button-purple-bg{
+    background: #745cf9;
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    padding: 17px 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-right: 10px;
+}
+.button-purple-bg:hover{
+    background: rgba(82, 52, 249, 0.8);
+}
+.button-no-bg{
+    text-decoration: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    padding: 15px 0;
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.button-no-bg:hover{
+    background: #fff;
+    color: #000;
+}
