@@ -9,6 +9,7 @@ header{
     border-top: 2px solid #666666;
     border-bottom: 1px solid #666666;
     position: fixed;
+    top: 0;
     width: 100%;
     background: #ffffff;
 }
@@ -45,7 +46,8 @@ ul li a:hover{
     text-decoration: underline;
 }
 #hero{
-    height: 110vh;
+    padding-top: 76px;
+    height: calc(100vh - 76px);
     color: #ffffff;
     background: url(https://cdn.colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-1.jpg) center/cover no-repeat;
     display: flex;
